@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title><www class="papelmagia com br"></www></title>
+<style>
+  
+/* Reset de Estilos */
+*{ 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+   } 
+   /* Estilos Gerais */ 
+   body { 
+    font-family: Arial, sans-serif; 
+    line-height: 1.6; 
+   } 
+   header { 
+    background-color: #d1eff1; 
+   } 
+   .logo{ 
+    width: 70px; 
+    border-radius: 50%; 
+    border:solid 2px #de33f9;
+    margin:20px; 
+   } 
+   .header-content { 
+    display: flex; 
+    justify-content: space-between;  align-items: center; 
+   } 
+   .barraDePesquisa { 
+    background-color: rgb(144, 169, 238); } 
+   .barraDePesquisa input[type="text"] {  padding: 5px; 
+    width: 200px; 
+   } 
+   .barraDePesquisa button { 
+    padding: 5px 10px; 
+    background-color: #333; 
+    color: #ffffff; 
+    border: none; 
+    cursor: pointer; 
+   } 
+   .seja bem vindo ao nosso site{ 
+    background-color: grey; 
+   } 
+   nav ul { 
+    list-style-type: none; 
+   } 
+   nav ul li { 
+    display: inline; 
+    margin-right: 20px; 
+   } 
+   a { 
+    text-decoration: none; 
+    color: #333; 
+   } 
+   a:hover { 
+    color: #666;
+   } 
+  .container {
+      width: 50%;
+      margin: 50px auto;
+      background-color: #E6E6FA;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  
+    h2 {
+            margin-bottom: 20px;
+            color: #5ac0cd;
+  }
+
+  label {
+      display: block;
+      margin-bottom: 5px;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+  }
+
+  input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color:  #070607;;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+  }
+
+  input[type="submit"]:hover {
+      background-color: #6fc0e6;
+  }
+  .footer {
+    text-align: center;
+    }
+
+</style>
+</head>
+<body>
+<header>
+<div class="header-content">
+<div><img src="logo.jpeg" class="logo"></div>
+<div class="barraDePesquisa">
+<input type="text" placeholder="Pesquisar...">
+<button type="submit">Buscar</button>
+</div>
+<div class="fraseDeImpacto"> "Adorne-se com o estilo: onde cada peça é<br>uma declaração de elegância e personalidade</div>
+</div>
+</header>
+<nav>
+<ul>
+<li><a href="cadastro.html">Criar sua Conta</a></li>
+<li><a href="login.html">Entrar</a></li>
+<li><a href="carrinho.html">Carrinho</a></li>
+</ul>
+</nav>
+<div class="container">
+  <h2>Cadastro</h2>
+  <form action="php.php" method="POST">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required>
+
+      <label for="sobrenome">Sobrenome:</label>
+      <input type="text" id="sobrenome" name="sobrenome" required>
+
+      <label for="cpf">Cpf:</label>
+      <input type="text" id="cpf" name="cpf" required>
+    
+      <label for="telefone">Telefone:</label>
+      <input type="text" id="telefone" name="Telefone" required>
+
+      <label for="email">Email:</label>
+      <input type="text" id="email" name="email" required>
+      
+      <label for="senha">Criar a sua senha:</label>
+      <input type="password" id="senha" name="senha" required>
+
+      <label for="ssenha">Confirme sua senha:</label>
+      <input type="password" id="ssenha" name="ssenha" required>
+      
+      <input type="submit" value="Cadastrar">
+  </form>
+</div>
+<p>&copy; 2024 Meu E-commerce. Todos os direitos reservados.</p>
+</footer>
+</body>
+</html>
