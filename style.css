@@ -7,10 +7,11 @@
    /* Estilos Gerais */ 
    body { 
     font-family: Arial, sans-serif; 
-    line-height: 1.6; 
+    line-height: 1.6;
+    background-color: #d1eff1;  
    } 
    header { 
-    background-color: #d1eff1; 
+    background-color: rgb(150, 205, 233); 
    } 
    .logo{ 
     width: 70px; 
